@@ -3,7 +3,7 @@ select {
   text-transform: capitalize;
 }
 
-nav ul {
+ul {
   list-style-type: none;
 }
 
@@ -13,7 +13,20 @@ nav li {
 
 header {
   background-color: #000;
-  display: flex;
+}
+
+header .navtop {
+  text-align: right;
+}
+
+header .navtop a {
+  color: lightgrey;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+header .navtop a:hover {
+  color: #FFF;
 }
 
 header i {
@@ -21,14 +34,17 @@ header i {
   margin-right: 5px;
 }
 
-header a {
-  color: lightgrey;
-  text-decoration: none;
-  margin-right: 10px;
+header .navdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-header a:hover {
+header .navdown a,
+header .navdown a:hover {
   color: #FFF;
+  text-decoration: none;
+  margin: 20px;
 }
 
 * {

@@ -1,9 +1,17 @@
 header {
-    background-color: $bgColor;
-    display: flex;
+    background-color: $bgColor;    
 
     .navtop {
-        
+        text-align: right;
+        a {
+            color: lightgrey;
+            text-decoration: none;
+            margin-right: $navSpacing;
+
+            &:hover {
+                color: $whiteTxt;
+            }
+        }
     }
 
     i {
@@ -11,13 +19,16 @@ header {
         margin-right: $navSpacing / 2;
     }
 
-    a {
-        color: lightgrey;
-        text-decoration: none;
-        margin-right: $navSpacing;
-
-        &:hover {
+    .navdown {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a, a:hover {
             color: $whiteTxt;
+            text-decoration: none;
+            margin: $navSpacing * 2;
         }
     }
+
+
 }
