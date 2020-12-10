@@ -1,11 +1,23 @@
 header {
     background-color: $bgColor;
+    display: flex;
+
+    .navtop {
+        
+    }
+
+    i {
+        color: $elementColor;
+        margin-right: $navSpacing / 2;
+    }
 
     a {
-        color: $whiteTxt;
+        color: lightgrey;
+        text-decoration: none;
+        margin-right: $navSpacing;
 
         &:hover {
-            color: yellow;
+            color: $whiteTxt;
         }
     }
 }
