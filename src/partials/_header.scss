@@ -1,5 +1,5 @@
 header {
-    background-color: $bgColor;    
+    background-color: $bgColor;
 
     .navtop {
         text-align: right;
@@ -23,6 +23,8 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: $navSpacing * 1.6;
+
         a, a:hover {
             color: $whiteTxt;
             text-decoration: none;
