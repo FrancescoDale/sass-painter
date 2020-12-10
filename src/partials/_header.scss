@@ -1,3 +1,11 @@
 header {
     background-color: $bgColor;
+
+    a {
+        color: $whiteTxt;
+
+        &:hover {
+            color: yellow;
+        }
+    }
 }

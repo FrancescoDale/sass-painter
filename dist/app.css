@@ -2,6 +2,14 @@ header {
   background-color: #000;
 }
 
+header a {
+  color: #FFF;
+}
+
+header a:hover {
+  color: yellow;
+}
+
 * {
   margin: 0;
   border: 0;
