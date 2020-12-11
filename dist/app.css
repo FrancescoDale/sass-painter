@@ -13,6 +13,7 @@ nav li {
 
 header {
   background-color: #000;
+  padding-top: 10px;
 }
 
 header .navtop {
@@ -52,5 +53,11 @@ header .navdown a:hover {
   margin: 0;
   border: 0;
   box-sizing: border-box;
+}
+
+.jumbotron {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
