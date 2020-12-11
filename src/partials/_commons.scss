@@ -1,9 +1,16 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 nav, select {
     text-transform: capitalize;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 nav li {
