@@ -1,5 +1,36 @@
 .jumbotron {
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
     object-fit: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+.jumbolist li {
+    color: $whiteTxt;
+}
+
+.jumbolist i {
+    color: grey;
+}
+
+.download_button {
+    display: flex;
+    line-height: 0.2;
+    padding: $navSpacing;
+}
+
+.download_button i {
+    height: 100%;
+}
+
+.pricebrick {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $bgColor;    
+    padding: 0 $navSpacing * 1.5;
+}
+
+.pricebrick-header {
+    display: inline-flex;
 }
