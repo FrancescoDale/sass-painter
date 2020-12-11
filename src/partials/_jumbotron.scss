@@ -15,19 +15,21 @@
 
 .download_button {
     display: flex;
+    justify-content: space-between;
     line-height: 0.2;
     padding: $navSpacing;
 }
 
 .download_button i {
     height: 100%;
+    width: 100%;
 }
 
 .pricebrick {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: $bgColor;    
+    background-color: $bgColor;
     padding: 0 $navSpacing * 1.5;
 }
 
