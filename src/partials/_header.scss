@@ -2,6 +2,10 @@ header {
     background-color: $bgColor;
     padding-top: $navSpacing;
 
+    nav li {
+        display: inline-block;
+    }
+
     .navtop {
         text-align: right;
         a {
