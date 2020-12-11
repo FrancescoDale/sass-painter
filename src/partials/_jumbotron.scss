@@ -1,12 +1,21 @@
+h2 {
+    font-size: $navSpacing * 3;
+
+}
+
+h2, h3, li {
+    color: $whiteTxt;
+}
+
+h3 {
+    font-size: $navSpacing * 1.8;
+}
+
 .jumbotron {
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
     object-fit: contain;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.jumbolist li {
-    color: $whiteTxt;
 }
 
 .jumbolist i {
