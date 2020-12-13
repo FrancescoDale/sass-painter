@@ -6,8 +6,8 @@
 @import "partials/footer";
 
 #subnav {
-    background-color: grey;
-    margin-top: 0;
+    background-color: lightgrey;
+    margin: 0;
     ul li {
         display: inline-block;
         padding: $navSpacing * 2;
@@ -18,5 +18,21 @@
 
             &:hover {}
         }
+    }
+}
+
+
+#intro {
+    padding-top: $navSpacing * 8;
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg');
+    h2, p {
+
+    }
+    p {
+        color: $whiteTxt;
+        font-size: $navSpacing * 1.8;
+    }
+    h2::first-letter, p::first-letter {
+        text-transform: capitalize;
     }
 }

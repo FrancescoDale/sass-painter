@@ -145,8 +145,8 @@ footer a {
 }
 
 #subnav {
-  background-color: grey;
-  margin-top: 0;
+  background-color: lightgrey;
+  margin: 0;
 }
 
 #subnav ul li {
@@ -158,5 +158,20 @@ footer a {
   text-decoration: none;
   font-size: 20px;
   color: #000;
+}
+
+#intro {
+  padding-top: 80px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+}
+
+#intro p {
+  color: #FFF;
+  font-size: 18px;
+}
+
+#intro h2::first-letter,
+#intro p::first-letter {
+  text-transform: capitalize;
 }
 
