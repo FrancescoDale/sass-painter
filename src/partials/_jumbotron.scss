@@ -8,12 +8,16 @@ h2, h3, li {
 }
 
 h3 {
-    font-size: $navSpacing * 1.8;
+    font-size: $navSpacing * 2;
+}
+
+h4 {
+    font-size: $navSpacing * 1.6;
 }
 
 .jumbotron {
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
-    object-fit: contain;
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -22,26 +26,54 @@ h3 {
     color: grey;
 }
 
-.download_button {
+.download-button {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     line-height: 0.2;
     padding: $navSpacing;
+    width: 45%;
+    color: $whiteTxt;
+    background-color: grey;
 }
 
-.download_button i {
+.download-button i {
     height: 100%;
     width: 100%;
+}
+
+.download-button-txt {
+    border-right: 1px solid $whiteTxt;
 }
 
 .pricebrick {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: $bgColor;
-    padding: 0 $navSpacing * 1.5;
+    padding: $navSpacing * 2 $navSpacing;
+    height: 100%;
+    margin-bottom: 0;
 }
 
 .pricebrick-header {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricebrick button {
+    color: $whiteTxt;
+    background-color: $elementColor;
+    margin-bottom: $navSpacing * 2;
+    width: 50%;
+    padding: $navSpacing;
+}
+
+.pricebrick-footer {
+    padding: $navSpacing 0;
+    line-height: 0.8;
+    background-color: $whiteTxt;
+    width: 100%;
+    p {
+        font-size: $navSpacing * 0.9;
+    }
 }
