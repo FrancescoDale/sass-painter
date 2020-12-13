@@ -79,6 +79,8 @@ h4 {
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .jumbolist i {
@@ -140,5 +142,21 @@ h4 {
 footer a {
   text-decoration: none;
   color: grey;
+}
+
+#subnav {
+  background-color: grey;
+  margin-top: 0;
+}
+
+#subnav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+#subnav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
 }
 

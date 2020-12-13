@@ -4,3 +4,19 @@
 @import "partials/header";
 @import "partials/jumbotron";
 @import "partials/footer";
+
+#subnav {
+    background-color: grey;
+    margin-top: 0;
+    ul li {
+        display: inline-block;
+        padding: $navSpacing * 2;
+        a {
+            text-decoration: none;
+            font-size: $navSpacing * 2;
+            color: $bgColor;
+
+            &:hover {}
+        }
+    }
+}
